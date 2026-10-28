@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Explore sheets, duvets, pillows and bedroom essentials at Meremeya Beddings.">
+	<title>Categories | Meremeya Beddings</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+	<header class="site-header" id="top">
+		<div class="header-main">
+			<a class="brand" href="index.html" aria-label="Meremeya Beddings home">
+				<img src="meremeya-beddings-logo.svg" alt="Meremeya Beddings">
+			</a>
+			<form class="search-container" action="shop.html" method="get" role="search">
+				<label class="visually-hidden" for="site-search">Search products</label>
+				<input id="site-search" name="q" type="search" placeholder="Search for products...">
+				<button type="submit" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></button>
+			</form>
+			<div class="header-actions">
+				<a href="contact.html" aria-label="Contact Meremeya Beddings"><i class="far fa-user" aria-hidden="true"></i></a>
+				<a class="cart-link" href="shop.html#cart" aria-label="View your cart">
+					<i class="fas fa-shopping-cart" aria-hidden="true"></i>
+					<span class="cart-count">0</span>
+				</a>
+			</div>
+		</div>
+		<nav class="main-nav" aria-label="Main navigation">
+			<a href="index.html">Home</a>
+			<a href="shop.html">Shop</a>
+			<a class="active" href="catergories.html" aria-current="page">Categories</a>
+			<a href="about.html">About</a>
+			<a href="contact.html">Contact</a>
+		</nav>
+	</header>
+
+	<main class="categories-main">
+		<nav class="breadcrumbs" aria-label="Breadcrumb">
+			<a href="index.html">Home</a><i class="fas fa-chevron-right" aria-hidden="true"></i><span>Categories</span>
+		</nav>
+		<section class="categories-intro" aria-labelledby="categories-title">
+			<div>
+				<p class="eyebrow">Browse the collection</p>
+				<h1 id="categories-title">A good find for every part of your day.</h1>
+				<p>Explore the collection by category and discover something useful, thoughtful, or just for you.</p>
+			</div>
+			<a class="button button-primary" href="shop.html">Shop everything <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+		</section>
+
+		<section class="category-showcase" aria-label="Shop by bedding category">
+			<a class="category-showcase-card" href="shop.html?q=Bed%20sheets"><span class="category-showcase-image"><img src="bedding-sheets.jpg" alt="Cotton bed sheets" loading="lazy"><span class="category-icon"><i class="fas fa-bed" aria-hidden="true"></i></span></span><span class="category-showcase-info"><span><strong>Bed sheets</strong><small>Soft sheets for everyday comfort.</small></span><span class="category-showcase-count">2 items <i class="fas fa-arrow-right" aria-hidden="true"></i></span></span></a>
+			<a class="category-showcase-card" href="shop.html?q=Duvets"><span class="category-showcase-image"><img src="bedding-duvet.jpg" alt="Duvet sets" loading="lazy"><span class="category-icon"><i class="fas fa-cloud" aria-hidden="true"></i></span></span><span class="category-showcase-info"><span><strong>Duvets</strong><small>Cosy comfort for every season.</small></span><span class="category-showcase-count">2 items <i class="fas fa-arrow-right" aria-hidden="true"></i></span></span></a>
+			<a class="category-showcase-card" href="shop.html?q=Pillows"><span class="category-showcase-image"><img src="bedding-pillows.jpg" alt="Soft pillows" loading="lazy"><span class="category-icon"><i class="fas fa-square" aria-hidden="true"></i></span></span><span class="category-showcase-info"><span><strong>Pillows</strong><small>Supportive comfort for restful sleep.</small></span><span class="category-showcase-count">2 items <i class="fas fa-arrow-right" aria-hidden="true"></i></span></span></a>
+			<a class="category-showcase-card" href="shop.html?q=Protectors"><span class="category-showcase-image"><img src="bedding-bedroom.jpg" alt="Mattress protector" loading="lazy"><span class="category-icon"><i class="fas fa-shield-halved" aria-hidden="true"></i></span></span><span class="category-showcase-info"><span><strong>Protectors</strong><small>Keep your mattress fresh and clean.</small></span><span class="category-showcase-count">1 item <i class="fas fa-arrow-right" aria-hidden="true"></i></span></span></a>
+			<a class="category-showcase-card" href="shop.html?q=Blankets"><span class="category-showcase-image"><img src="bedding-room.jpg" alt="Fleece blanket" loading="lazy"><span class="category-icon"><i class="fas fa-layer-group" aria-hidden="true"></i></span></span><span class="category-showcase-info"><span><strong>Blankets</strong><small>Warm layers made for cosy nights.</small></span><span class="category-showcase-count">1 item <i class="fas fa-arrow-right" aria-hidden="true"></i></span></span></a>
+			<a class="category-showcase-card" href="shop.html?q=Bedroom%20decor"><span class="category-showcase-image"><img src="bedding-pillows.jpg" alt="Bedroom cushions" loading="lazy"><span class="category-icon"><i class="fas fa-couch" aria-hidden="true"></i></span></span><span class="category-showcase-info"><span><strong>Bedroom decor</strong><small>Finishing touches for your room.</small></span><span class="category-showcase-count">1 item <i class="fas fa-arrow-right" aria-hidden="true"></i></span></span></a>
+		</section>
+	</main>
+
+	<footer class="site-footer">
+		<div class="footer-main">
+			<div class="footer-about">
+				<a class="footer-brand" href="index.html">Meremeya Beddings</a>
+				<p>Comfortable bedding and bedroom essentials for peaceful nights.</p>
+				<span class="footer-delivery"><i class="fas fa-truck-fast" aria-hidden="true"></i> Delivery available across Uganda</span>
+			</div>
+			<nav class="footer-column" aria-label="Shop links">
+				<h2>Explore</h2>
+				<a href="shop.html">Shop all</a>
+				<a href="catergories.html">All categories</a>
+				<a href="shop.html#cart">Your cart</a>
+			</nav>
+			<nav class="footer-column" aria-label="Product categories">
+				<h2>Categories</h2>
+				<a href="shop.html?q=Bed%20sheets">Bed sheets</a>
+				<a href="shop.html?q=Duvets">Duvets</a>
+				<a href="shop.html?q=Pillows">Pillows</a>
+				<a href="shop.html?q=Protectors">Protectors</a>
+				<a href="shop.html?q=Blankets">Blankets</a>
+				<a href="shop.html?q=Bedroom%20decor">Bedroom decor</a>
+			</nav>
+			<nav class="footer-column" aria-label="Customer care">
+				<h2>Customer care</h2>
+				<a href="contact.html">Contact us</a>
+				<a href="about.html">About Meremeya Beddings</a>
+				<a href="admin.html">Admin</a>
+				<span>Questions about an order or product?</span>
+			</nav>
+		</div>
+		<div class="footer-bottom">
+			<small>&copy; 2026 Meremeya Beddings. All rights reserved.</small>
+			<a class="back-to-top" href="#top">Back to top <i class="fas fa-arrow-up" aria-hidden="true"></i></a>
+		</div>
+	</footer>
+	<script>
+		document.querySelector('.cart-count').textContent = Number(localStorage.getItem('hills-shop-cart-count')) || 0;
+	</script>
+</body>
+</html>

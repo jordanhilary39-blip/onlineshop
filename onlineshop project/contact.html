@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Contact Meremeya Beddings with a question about bedding, orders, delivery or returns.">
+	<title>Contact | Meremeya Beddings</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+	<header class="site-header" id="top">
+		<div class="header-main">
+			<a class="brand" href="index.html" aria-label="Meremeya Beddings home"><img src="meremeya-beddings-logo.svg" alt="Meremeya Beddings"></a>
+			<form class="search-container" action="shop.html" method="get" role="search">
+				<label class="visually-hidden" for="site-search">Search products</label>
+				<input id="site-search" name="q" type="search" placeholder="Search for products...">
+				<button type="submit" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></button>
+			</form>
+			<div class="header-actions">
+				<a href="contact.html" aria-label="Contact Meremeya Beddings"><i class="far fa-user" aria-hidden="true"></i></a>
+				<a class="cart-link" href="shop.html#cart" aria-label="View your cart"><i class="fas fa-shopping-cart" aria-hidden="true"></i><span class="cart-count">0</span></a>
+			</div>
+		</div>
+		<nav class="main-nav" aria-label="Main navigation">
+			<a href="index.html">Home</a><a href="shop.html">Shop</a><a href="catergories.html">Categories</a><a href="about.html">About</a><a class="active" href="contact.html" aria-current="page">Contact</a>
+		</nav>
+	</header>
+
+	<main class="contact-main">
+		<nav class="breadcrumbs" aria-label="Breadcrumb"><a href="index.html">Home</a><i class="fas fa-chevron-right" aria-hidden="true"></i><span>Contact</span></nav>
+		<section class="contact-intro" aria-labelledby="contact-title">
+			<p class="eyebrow">We're here to help</p>
+			<h1 id="contact-title">What can we help you find out?</h1>
+			<p>Send a question about a product, an order, delivery, or returns.</p>
+		</section>
+
+		<div class="contact-layout">
+			<section class="contact-form-section" aria-labelledby="message-title">
+				<h2 id="message-title">Send us a message</h2>
+				<p class="contact-form-intro">Share a few details and your question. Required fields are marked.</p>
+				<form class="contact-form" id="contact-form">
+					<div class="form-row">
+						<label for="contact-name">Your name <span aria-hidden="true">*</span><input id="contact-name" name="name" type="text" autocomplete="name" required></label>
+						<label for="contact-email">Email address <span aria-hidden="true">*</span><input id="contact-email" name="email" type="email" autocomplete="email" required></label>
+					</div>
+					<label for="contact-topic">What is your message about?
+						<select id="contact-topic" name="topic" required>
+							<option value="" selected disabled>Select a topic</option>
+							<option>Product question</option>
+							<option>Order or delivery</option>
+							<option>Returns</option>
+							<option>Other</option>
+						</select>
+					</label>
+					<label for="contact-message">Message <span aria-hidden="true">*</span><textarea id="contact-message" name="message" rows="6" minlength="10" required></textarea></label>
+					<p class="form-disclosure"><i class="fas fa-circle-info" aria-hidden="true"></i> This form is not connected to a message service yet, so submissions are not delivered.</p>
+					<button class="button button-primary" type="submit">Prepare message <i class="fas fa-arrow-right" aria-hidden="true"></i></button>
+					<p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+				</form>
+			</section>
+			<aside class="contact-help" aria-label="Helpful links">
+				<p class="eyebrow">A quick place to start</p>
+				<h2>Looking for something?</h2>
+				<p>Browse the shop or explore a category to find product details and available options.</p>
+				<a href="shop.html">Shop all products <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+				<a href="catergories.html">Browse categories <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+				<a href="about.html">Learn about Meremeya Beddings <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+			</aside>
+		</div>
+	</main>
+
+	<footer class="site-footer">
+		<div class="footer-main">
+			<div class="footer-about">
+				<a class="footer-brand" href="index.html">Meremeya Beddings</a>
+				<p>Comfortable bedding and bedroom essentials for peaceful nights.</p>
+				<span class="footer-delivery"><i class="fas fa-truck-fast" aria-hidden="true"></i> Delivery available across Uganda</span>
+			</div>
+			<nav class="footer-column" aria-label="Shop links">
+				<h2>Explore</h2>
+				<a href="shop.html">Shop all</a>
+				<a href="catergories.html">All categories</a>
+				<a href="shop.html#cart">Your cart</a>
+			</nav>
+			<nav class="footer-column" aria-label="Product categories">
+				<h2>Categories</h2>
+				<a href="shop.html?q=Bed%20sheets">Bed sheets</a>
+				<a href="shop.html?q=Duvets">Duvets</a>
+				<a href="shop.html?q=Pillows">Pillows</a>
+				<a href="shop.html?q=Protectors">Protectors</a>
+				<a href="shop.html?q=Blankets">Blankets</a>
+				<a href="shop.html?q=Bedroom%20decor">Bedroom decor</a>
+			</nav>
+			<nav class="footer-column" aria-label="Customer care">
+				<h2>Customer care</h2>
+				<a href="contact.html">Contact us</a>
+				<a href="about.html">About Meremeya Beddings</a>
+				<a href="admin.html">Admin</a>
+				<span>Questions about an order or product?</span>
+			</nav>
+		</div>
+		<div class="footer-bottom">
+			<small>&copy; 2026 Meremeya Beddings. All rights reserved.</small>
+			<a class="back-to-top" href="#top">Back to top <i class="fas fa-arrow-up" aria-hidden="true"></i></a>
+		</div>
+	</footer>
+	<script>
+		document.querySelector('.cart-count').textContent = Number(localStorage.getItem('hills-shop-cart-count')) || 0;
+		const orderSummary = new URLSearchParams(window.location.search).get('order');
+		if (orderSummary) {
+			document.querySelector('#contact-topic').value = 'Order or delivery';
+			document.querySelector('#contact-message').value = `I'd like to ask about this order:\n${orderSummary}`;
+		}
+		document.querySelector('#contact-form').addEventListener('submit', (event) => {
+			event.preventDefault();
+			document.querySelector('#form-status').textContent = 'Your message is ready, but this website is not connected to a message service. Please contact Meremeya Beddings directly to send it.';
+		});
+	</script>
+</body>
+</html>
